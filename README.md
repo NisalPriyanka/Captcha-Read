@@ -10,5 +10,5 @@
 <br/>
 
 <h2> How to run.. </h2>
-<p> python captcha.py -i <imagePath> -p <thresh|blur> </p>
+<p> python captcha.py -i [imagePath] -p [thresh|blur] </p>
 
