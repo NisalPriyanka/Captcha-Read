@@ -1,5 +1,6 @@
-
+#!/usr/bin/python3
 import pytesseract
+#from pytesseract import image_to_string
 from PIL import Image
 import argparse
 import cv2
@@ -9,7 +10,7 @@ import subprocess
 #construct the arguments and prase it
 ap = argparse.ArgumentParser()
 
-#The path to the image we’re sending through the OCR system. [i = argument/parameter | image = argument variable]
+#The path to the image we re sending through the OCR system. [i = argument/parameter | image = argument variable]
 ap.add_argument("-i","--image", required=True, help="Path of the Captcha Image to Read")
 
 #The preprocessing method. This switch is optional. This preprocessing can accept two values (Threshold or Blur)
@@ -42,6 +43,11 @@ os.remove(filename)
 
 #print captured text
 print(text)
+
+#get output
+cv2.imshow("Image", image)
+cv2.imshow("Output", gray)
+cv2.waitKey(0)
 
 
 
