@@ -50,6 +50,6 @@ cv2.imshow("Output", gray)
 cv2.waitKey(0)
 
 
-
+#DEVELOPED BY : NISAL PRIYANKA aka COD-HORA
 
 
