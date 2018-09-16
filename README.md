@@ -19,3 +19,5 @@
 <h2> How to run.. </h2>
 <p> python captcha.py -i [imagePath] -p [thresh|blur] </p>
 
+<code> Developed By : Nisal Priyanka </code>
+
